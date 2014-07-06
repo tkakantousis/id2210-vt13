@@ -32,6 +32,8 @@ import common.simulation.PeerFail;
 import common.simulation.PeerJoin;
 import common.simulation.SimulatorInit;
 import java.net.InetAddress;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 import se.sics.ipasdistances.AsIpGenerator;
 import se.sics.kompics.Negative;
@@ -54,14 +56,13 @@ public final class SearchSimulator extends ComponentDefinition {
     private BigInteger identifierSpaceSize;
     private ConsistentHashtable<BigInteger> ringNodes;
     private AsIpGenerator ipGenerator = AsIpGenerator.getInstance(125);
-
     static String[] articles = {" ", "The ", "A "};
     static String[] verbs = {"fires ", "walks ", "talks ", "types ", "programs "};
     static String[] subjects = {"computer ", "Lucene ", "torrent "};
     static String[] objects = {"computer", "java", "video"};
     Random r = new Random(System.currentTimeMillis());
-    
-    
+    ArrayList<BigInteger> sortedIds = new ArrayList<BigInteger>();
+
 //-------------------------------------------------------------------	
     public SearchSimulator() {
         peers = new HashMap<BigInteger, Component>();
@@ -94,27 +95,26 @@ public final class SearchSimulator extends ComponentDefinition {
 
         }
     };
-    
+
     String randomText() {
         StringBuilder sb = new StringBuilder();
         int clauses = Math.max(1, r.nextInt(3));
         for (int i = 0; i < clauses; i++) {
-                sb.append(articles[r.nextInt(articles.length)]);
-                sb.append(subjects[r.nextInt(subjects.length)]);
-                sb.append(verbs[r.nextInt(verbs.length)]);
-                sb.append(objects[r.nextInt(objects.length)]);
-                sb.append(". ");
+            sb.append(articles[r.nextInt(articles.length)]);
+            sb.append(subjects[r.nextInt(subjects.length)]);
+            sb.append(verbs[r.nextInt(verbs.length)]);
+            sb.append(objects[r.nextInt(objects.length)]);
+            sb.append(". ");
         }
         return sb.toString();
     }
-    
 //-------------------------------------------------------------------	
     Handler<AddIndexEntry> handleAddIndexEntry = new Handler<AddIndexEntry>() {
         @Override
         public void handle(AddIndexEntry event) {
             BigInteger successor = ringNodes.getNode(event.getId());
             Component peer = peers.get(successor);
-            
+
             trigger(new AddIndexText(randomText()), peer.getNegative(IndexPort.class));
         }
     };
@@ -153,6 +153,7 @@ public final class SearchSimulator extends ComponentDefinition {
 //-------------------------------------------------------------------	
     Handler<GenerateReport> handleGenerateReport = new Handler<GenerateReport>() {
         public void handle(GenerateReport event) {
+            
             Snapshot.report();
         }
     };
@@ -173,8 +174,15 @@ public final class SearchSimulator extends ComponentDefinition {
 
         trigger(new Start(), peer.getControl());
         peers.put(id, peer);
-        peersAddress.put(id, peerAddress);
 
+        peersAddress.put(id, peerAddress);
+        //sortedIds.add(id);
+        //Collections.sort(sortedIds);
+        //System.out.println("Peers:" + sortedIds.size()+", new peer:"+id);
+        //if (sortedIds.size() % 10 == 0 ) {
+            //System.out.println("Peers:" + sortedIds);
+
+        //}
     }
 
 //-------------------------------------------------------------------	

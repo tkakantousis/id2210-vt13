@@ -1,6 +1,6 @@
 package search.system.peer;
 
-
+import common.peer.PeerAddress;
 import se.sics.kompics.Event;
 
 public final class AddIndexText extends Event {

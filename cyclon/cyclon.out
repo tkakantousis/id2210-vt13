@@ -1,0 +1,1097 @@
+current time: 0
+---
+total number of peers: 0
+---
+global randomness: {}
+---
+out-degree: {}
+---
+in-degree: {}
+---
+graph statistics: 
+Diameter: 0
+Average path length: 0.0000
+Clustering-coefficient: 0.0000
+Average in-degree: NaN
+In-degree standard deviation: NaN
+Average out-degree: 0.0000
+Biggest cluster size: -2.147483648E9
+---
+###
+current time: 1
+---
+total number of peers: 2
+---
+global randomness: {0=2}
+---
+out-degree: {0=2}
+---
+in-degree: {0=2}
+---
+graph statistics: 
+Diameter: 2
+Average path length: 2.0000
+Clustering-coefficient: 1.0000
+Average in-degree: 0.0000
+In-degree standard deviation: 0.0000
+Average out-degree: 0.0000
+Biggest cluster size: 1.0
+---
+peer: 636, prtners: null
+peer: 6667, prtners: null
+###
+current time: 2
+---
+total number of peers: 20
+---
+global randomness: {0=20}
+---
+out-degree: {0=6, 1=10, 3=1, 4=1, 5=1, 9=1}
+---
+in-degree: {0=6, 1=5, 2=4, 3=3, 4=1, 5=1}
+---
+graph statistics: 
+Diameter: 20
+Average path length: 11.8316
+Clustering-coefficient: 0.9089
+Average in-degree: 1.4091
+In-degree standard deviation: 1.4690
+Average out-degree: 1.5500
+Biggest cluster size: 14.0
+---
+peer: 1151, prtners: null
+peer: 6286, prtners: null
+peer: 636, prtners: [4418, 6079, 2631]
+peer: 3420, prtners: null
+peer: 1914, prtners: [5064]
+peer: 3495, prtners: [1914]
+peer: 6667, prtners: null
+peer: 2631, prtners: [5064]
+peer: 3738, prtners: [1914, 957, 4771, 643, 1301]
+peer: 957, prtners: [1914]
+peer: 1301, prtners: [643]
+peer: 6079, prtners: [4418]
+peer: 5064, prtners: [4418, 6079, 2631, 636]
+peer: 7929, prtners: [5064]
+peer: 2489, prtners: null
+peer: 4771, prtners: [957]
+peer: 643, prtners: [1914]
+peer: 4418, prtners: [7929, 1912, 1914, 3738, 3495, 6079, 2631, 636, 5064]
+peer: 1912, prtners: [7929]
+peer: 6421, prtners: null
+###
+current time: 3
+---
+total number of peers: 32
+---
+global randomness: {0=32}
+---
+out-degree: {0=5, 1=20, 2=1, 3=1, 4=1, 5=1, 7=1, 10=2}
+---
+in-degree: {0=2, 1=15, 2=7, 3=4, 4=1, 5=2, 6=1}
+---
+graph statistics: 
+Diameter: 32
+Average path length: 9.4284
+Clustering-coefficient: 0.8979
+Average in-degree: 1.7222
+In-degree standard deviation: 1.4591
+Average out-degree: 1.9375
+Biggest cluster size: 30.0
+---
+peer: 1151, prtners: [1301]
+peer: 6286, prtners: [643]
+peer: 280, prtners: [6421]
+peer: 3420, prtners: [643]
+peer: 6667, prtners: null
+peer: 4509, prtners: [5064]
+peer: 2631, prtners: []
+peer: 2489, prtners: [643]
+peer: 643, prtners: [1914]
+peer: 333, prtners: null
+peer: 1912, prtners: [636]
+peer: 6421, prtners: [2489]
+peer: 636, prtners: [4418, 6079, 2631]
+peer: 5927, prtners: [5917]
+peer: 8152, prtners: [2079, 5917, 5927, 3392]
+peer: 1914, prtners: [5064]
+peer: 5917, prtners: [2079]
+peer: 3495, prtners: [1914]
+peer: 214, prtners: [3738]
+peer: 277, prtners: [1151]
+peer: 957, prtners: [1914]
+peer: 3738, prtners: [1914, 957, 4771, 2489, 3420, 6286, 280, 8152, 277, 6901]
+peer: 2079, prtners: [643]
+peer: 1301, prtners: [643]
+peer: 6901, prtners: [1301]
+peer: 6079, prtners: [7929, 1912, 2631, 636, 4418]
+peer: 3392, prtners: [2079]
+peer: 5064, prtners: [6079, 636, 1914, 3738, 3495, 2631, 7929]
+peer: 7929, prtners: [636, 1912]
+peer: 4771, prtners: [957]
+peer: 4418, prtners: [7929, 1912, 1914, 3495, 2631, 636, 6079, 1458, 214, 4509]
+peer: 1458, prtners: [3495]
+###
+current time: 4
+---
+total number of peers: 42
+---
+global randomness: {0=42}
+---
+out-degree: {0=4, 1=25, 2=2, 3=1, 5=1, 6=1, 7=1, 8=1, 9=4, 10=2}
+---
+in-degree: {0=1, 1=10, 2=12, 3=7, 4=5, 5=4, 6=2, 7=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 26.4820
+Clustering-coefficient: 0.7923
+Average in-degree: 2.1667
+In-degree standard deviation: 1.6135
+Average out-degree: 2.7381
+Biggest cluster size: 41.0
+---
+peer: 1151, prtners: [277]
+peer: 6286, prtners: [1301]
+peer: 280, prtners: []
+peer: 123, prtners: [3738]
+peer: 1941, prtners: [3392]
+peer: 3420, prtners: [1301]
+peer: 6667, prtners: null
+peer: 7654, prtners: [2250]
+peer: 4509, prtners: [5064]
+peer: 2631, prtners: []
+peer: 3194, prtners: [123]
+peer: 2489, prtners: [6421]
+peer: 643, prtners: [1301, 2489, 3420, 6286, 2079]
+peer: 333, prtners: [3392]
+peer: 7274, prtners: [3738]
+peer: 1912, prtners: [636]
+peer: 6421, prtners: [280]
+peer: 636, prtners: [2631, 214, 4509, 4418, 3495, 5064, 6079, 1912, 7929]
+peer: 5927, prtners: [5917]
+peer: 8152, prtners: [5917, 5927, 3392, 333, 1853, 1941, 1301]
+peer: 1914, prtners: [6286, 280, 3738, 3495, 643, 1912, 214, 4509, 636, 4418]
+peer: 5149, prtners: [123]
+peer: 5917, prtners: [2079]
+peer: 3495, prtners: [3420, 1458]
+peer: 5792, prtners: [123]
+peer: 2625, prtners: [7274]
+peer: 214, prtners: [3738, 7274, 2625, 123, 5149, 2250, 5792, 7654, 3194]
+peer: 277, prtners: []
+peer: 957, prtners: [3420, 4771]
+peer: 3738, prtners: [957, 4771, 2489, 3420, 6286, 280, 8152, 277, 6901]
+peer: 2079, prtners: [1301, 5917, 5927, 3392, 1853, 8152]
+peer: 1301, prtners: [1151, 6901]
+peer: 6901, prtners: [1151]
+peer: 6079, prtners: [1912, 4418, 3738, 3495, 2631, 7929, 5064, 214, 4509]
+peer: 2250, prtners: [123]
+peer: 3392, prtners: [2079]
+peer: 1853, prtners: [3392]
+peer: 5064, prtners: [636, 3738, 3495, 2631, 7929, 1914, 1912, 4418]
+peer: 7929, prtners: [1912, 214, 3495]
+peer: 4771, prtners: [3420]
+peer: 4418, prtners: [7929, 3495, 2631, 6079, 1458, 636, 2489, 3420, 957, 643]
+peer: 1458, prtners: [3495]
+###
+current time: 5
+---
+total number of peers: 42
+---
+global randomness: {0=42}
+---
+out-degree: {0=3, 1=14, 2=4, 3=2, 4=2, 5=1, 6=3, 8=2, 9=2, 10=9}
+---
+in-degree: {0=1, 1=1, 2=7, 3=7, 4=4, 5=11, 6=6, 7=2, 8=2, 12=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 14.2311
+Clustering-coefficient: 0.7070
+Average in-degree: 2.8406
+In-degree standard deviation: 2.0796
+Average out-degree: 4.3810
+Biggest cluster size: 41.0
+---
+peer: 1151, prtners: [277, 1301]
+peer: 6286, prtners: [1301, 2250, 7654, 3738, 1458, 957, 4771, 277]
+peer: 280, prtners: [6421]
+peer: 123, prtners: [5149, 214, 5792, 2250]
+peer: 1941, prtners: [5927]
+peer: 3420, prtners: [3495, 4771, 6901, 2489, 2079, 277, 1301, 2250, 6286, 1458]
+peer: 6667, prtners: null
+peer: 7654, prtners: [2250]
+peer: 4509, prtners: [1914]
+peer: 2631, prtners: [4509, 4418, 5064, 636, 5149, 957, 2489, 277, 6901]
+peer: 3194, prtners: [123]
+peer: 2489, prtners: [6421, 280]
+peer: 643, prtners: [2489, 3420, 6286, 2079, 6901]
+peer: 333, prtners: [5927]
+peer: 7274, prtners: [123, 2625]
+peer: 1912, prtners: [6079, 6286, 3495, 214, 4418, 1914]
+peer: 6421, prtners: [2489]
+peer: 636, prtners: [214, 4418, 3495, 6079, 7929, 1912, 3738, 2631, 1914, 5064]
+peer: 5927, prtners: []
+peer: 8152, prtners: [5917, 5927, 1301, 333, 1853, 1941]
+peer: 1914, prtners: [6286, 280, 3738, 3495, 643, 214, 4509, 636, 4418, 6079]
+peer: 5149, prtners: []
+peer: 5917, prtners: [5927]
+peer: 3495, prtners: [1458, 1301, 5064, 4509, 6079, 636, 957, 4418, 214, 7929]
+peer: 5792, prtners: [214]
+peer: 2625, prtners: [123]
+peer: 214, prtners: [7274, 2625, 5792, 3194, 280, 4509, 4418, 5064, 636, 2631]
+peer: 277, prtners: [1301, 1151, 6901]
+peer: 957, prtners: [4771, 1301, 1458]
+peer: 3738, prtners: [4771, 3420, 8152, 6901, 2250, 7654, 3194, 1301, 7274, 123]
+peer: 2079, prtners: [5927, 1853, 8152, 5917, 3392, 6286, 1458, 957, 4771]
+peer: 1301, prtners: [2489, 643, 277, 3495, 3420, 5927, 1853, 8152, 5917, 2079]
+peer: 6901, prtners: [1301, 1151]
+peer: 6079, prtners: [1912, 4418, 3738, 2631, 7929, 5064, 214, 4509, 1458, 1301]
+peer: 2250, prtners: [5149, 7654]
+peer: 3392, prtners: [5927, 333, 1853, 1941, 1301, 8152]
+peer: 1853, prtners: [333]
+peer: 5064, prtners: [3738, 3495, 2631, 1914, 4418, 4509, 7929, 1912]
+peer: 7929, prtners: [1912, 214, 5064, 636]
+peer: 4771, prtners: [957]
+peer: 4418, prtners: [7929, 2631, 636, 2489, 3420, 957, 643, 1301, 5064, 6079]
+peer: 1458, prtners: [7654]
+###
+current time: 6
+---
+total number of peers: 42
+---
+global randomness: {0=41, 1=1}
+---
+out-degree: {0=3, 1=11, 2=3, 3=1, 4=1, 5=1, 6=2, 8=1, 9=4, 10=15}
+---
+in-degree: {0=1, 2=4, 3=3, 4=3, 5=6, 6=10, 7=7, 8=6, 9=1, 10=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 15.6283
+Clustering-coefficient: 0.6133
+Average in-degree: 3.4833
+In-degree standard deviation: 2.3999
+Average out-degree: 5.5952
+Biggest cluster size: 41.0
+---
+peer: 1151, prtners: [1301]
+peer: 6286, prtners: [7654, 3738, 1458, 4771, 277, 957, 3420, 7929, 636, 5064]
+peer: 280, prtners: [6421]
+peer: 123, prtners: [5149, 5792, 2250, 3194, 7274, 2625, 5064, 6079, 4509, 636]
+peer: 1941, prtners: [333]
+peer: 3420, prtners: [277, 2250, 6286, 1458, 7654, 7274, 3738, 957, 333, 1941]
+peer: 6667, prtners: null
+peer: 7654, prtners: [2250, 1458]
+peer: 4509, prtners: [2625, 5792, 3194, 214, 643, 5064, 5149, 957, 277, 2631]
+peer: 2631, prtners: [4418, 636, 2489, 277, 6901, 7274, 2625, 5792, 3194, 214]
+peer: 3194, prtners: [2250]
+peer: 2489, prtners: [6421, 280]
+peer: 643, prtners: [2489, 3420, 6286, 2079, 1301, 1151]
+peer: 333, prtners: [1853, 5917]
+peer: 7274, prtners: [2625, 5792, 2250]
+peer: 1912, prtners: [6079, 6286, 3495, 4418, 1914, 7274, 2625, 280, 2631]
+peer: 6421, prtners: [2489]
+peer: 636, prtners: [214, 6079, 3738, 2631, 5064, 4418, 7929, 5792, 1912, 1914]
+peer: 5927, prtners: [5917, 333, 1941, 1458, 957, 1301, 8152, 4771, 2079]
+peer: 8152, prtners: [5917, 5927, 1853, 1941, 333, 4418, 1458, 957, 6286]
+peer: 1914, prtners: [6286, 3738, 3495, 643, 636, 4418, 6079, 4509, 2631, 1912]
+peer: 5149, prtners: [2250, 7654]
+peer: 5917, prtners: []
+peer: 3495, prtners: [1301, 957, 4418, 5792, 1912, 1914, 636, 3738, 4509, 5064]
+peer: 5792, prtners: [3495]
+peer: 2625, prtners: [3194]
+peer: 214, prtners: [280, 643, 1458, 7274, 123, 5792, 1912, 5064, 636, 7929]
+peer: 277, prtners: [6901, 1151, 1941, 2250]
+peer: 957, prtners: [1458, 3420, 2079, 3392, 4771]
+peer: 3738, prtners: [4771, 8152, 3194, 1301, 1458, 1912, 4418, 2631, 214, 6079]
+peer: 2079, prtners: [1853, 8152, 3392, 6286, 1458, 4771, 5917, 333, 1941, 957]
+peer: 1301, prtners: [3495, 6286, 5927, 333, 8152, 1151, 277, 2489, 3420, 6901]
+peer: 6901, prtners: [2489, 3420, 6286, 2079, 643, 3738, 1853, 1151, 277]
+peer: 6079, prtners: [7929, 5064, 4509, 1458, 1301, 2250, 7274, 123, 2489, 2079]
+peer: 2250, prtners: [7654]
+peer: 3392, prtners: [5927, 333, 1853, 1941, 8152, 643, 5917, 2079]
+peer: 1853, prtners: []
+peer: 5064, prtners: [3738, 2631, 4418, 4509, 1912, 6079, 7929, 5792, 1914, 636]
+peer: 7929, prtners: [1912, 5064, 636, 3495, 3194, 2625]
+peer: 4771, prtners: [3420]
+peer: 4418, prtners: [2631, 957, 643, 5064, 6079, 2489, 5917, 4771, 1458, 3420]
+peer: 1458, prtners: [7654]
+###
+current time: 7
+---
+total number of peers: 42
+---
+global randomness: {0=41, 1=1}
+---
+out-degree: {0=3, 1=4, 2=5, 3=1, 4=2, 8=1, 9=2, 10=24}
+---
+in-degree: {0=1, 3=2, 4=5, 5=3, 6=5, 7=9, 8=8, 9=4, 10=1, 11=2, 12=1, 13=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 9.3769
+Clustering-coefficient: 0.5562
+Average in-degree: 4.1351
+In-degree standard deviation: 2.7767
+Average out-degree: 6.9286
+Biggest cluster size: 41.0
+---
+peer: 1151, prtners: []
+peer: 6286, prtners: [5064, 6079, 2625, 280, 1912, 5917, 333, 8152, 3392, 957]
+peer: 280, prtners: [6421, 4771, 2625]
+peer: 123, prtners: [5149, 2250, 7274, 6079, 4509, 636, 2631, 957, 5917, 4771]
+peer: 1941, prtners: [1853]
+peer: 3420, prtners: [277, 6286, 7654, 3194, 2625, 7274, 3495, 6901, 4418, 5792]
+peer: 6667, prtners: null
+peer: 7654, prtners: [2250, 1458]
+peer: 4509, prtners: [3194, 214, 643, 957, 277, 2631, 3738, 1914, 123, 1912]
+peer: 2631, prtners: [636, 2489, 7274, 2625, 3194, 214, 4771, 1458, 3420, 5149]
+peer: 3194, prtners: [7654, 2625]
+peer: 2489, prtners: [1458, 5064, 4418, 6421, 280, 3420, 2079, 1853, 1151, 6901]
+peer: 643, prtners: [2489, 3420, 6286, 2079, 1151, 6901, 3738, 957, 4418, 3495]
+peer: 333, prtners: [1853, 1941]
+peer: 7274, prtners: [2625, 5792, 7654, 3194]
+peer: 1912, prtners: [3495, 1914, 7274, 280, 2631, 7654, 3738, 4771, 277, 957]
+peer: 6421, prtners: [2489]
+peer: 636, prtners: [2631, 4418, 1912, 1914, 6286, 4509, 4771, 3194, 8152, 6901]
+peer: 5927, prtners: [5917, 333, 1941, 957, 1301, 4771, 2079, 8152, 3392, 2250]
+peer: 8152, prtners: [5917, 5927, 1853, 1941, 333, 4418, 957, 6286, 2079]
+peer: 1914, prtners: [3738, 3495, 643, 6079, 4509, 2631, 1912, 214, 5064, 5792]
+peer: 5149, prtners: [7654, 5792]
+peer: 5917, prtners: [1853, 333]
+peer: 3495, prtners: [1912, 1914, 636, 3738, 4509, 5064, 1151, 2489, 1458, 6079]
+peer: 5792, prtners: [4418, 1301, 3738, 1941, 4771, 5149, 2250, 1458, 957, 7654]
+peer: 2625, prtners: [7654]
+peer: 214, prtners: [280, 643, 7274, 5792, 636, 7929, 4509, 1912, 6079, 1914]
+peer: 277, prtners: [6901, 1151, 1941, 2250]
+peer: 957, prtners: [3420, 3392, 4771, 2250, 5917, 333, 8152, 2079]
+peer: 3738, prtners: [4418, 214, 5927, 333, 277, 5064, 7929, 5792, 1914, 636]
+peer: 2079, prtners: [6286, 4771, 5917, 333, 1941, 957, 2250, 5927, 3420, 636]
+peer: 1301, prtners: [6286, 957, 1912, 3495, 643, 5064, 4509, 2079, 6079, 1151]
+peer: 6901, prtners: [6286, 643, 3738, 1151, 277, 4771, 2625, 5064, 4418, 6421]
+peer: 6079, prtners: [7929, 1458, 2250, 7274, 123, 2079, 3420, 4418, 1151, 643]
+peer: 2250, prtners: [7654, 3194, 2625, 7274, 3420, 3495, 6286, 6901, 4418, 1301]
+peer: 3392, prtners: [333, 1853, 8152, 643, 2079, 5917, 1941, 1301, 4771]
+peer: 1853, prtners: []
+peer: 5064, prtners: [4509, 643, 5917, 4771, 123, 1912, 636, 3495, 3194, 7929]
+peer: 7929, prtners: [636, 3194, 2625, 5792, 123, 4418, 333, 1941, 6286, 1458]
+peer: 4771, prtners: [333]
+peer: 4418, prtners: [6079, 636, 214, 5149, 5064, 280, 277, 6901, 5792, 2631]
+peer: 1458, prtners: [4771, 957, 3392, 2079, 6286, 8152, 1912, 3495, 5792, 123]
+###
+current time: 8
+---
+total number of peers: 42
+---
+global randomness: {0=38, 1=4}
+---
+out-degree: {0=2, 1=3, 2=1, 3=1, 6=3, 8=1, 9=1, 10=30}
+---
+in-degree: {0=1, 2=1, 3=2, 4=1, 5=4, 6=1, 7=8, 8=8, 9=2, 10=5, 11=1, 12=2, 13=4, 15=2}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 5.7108
+Clustering-coefficient: 0.5196
+Average in-degree: 4.7765
+In-degree standard deviation: 3.2347
+Average out-degree: 8.1667
+Biggest cluster size: 41.0
+---
+peer: 1151, prtners: []
+peer: 6286, prtners: [280, 1912, 6079, 1301, 4509, 1458, 3194, 3420, 2625, 7654]
+peer: 280, prtners: [3495, 7274, 7654, 957, 1912, 1301, 3392, 2250, 5927, 5917]
+peer: 123, prtners: [2250, 7274, 6079, 4509, 2631, 957, 5917, 4771, 6901, 5064]
+peer: 1941, prtners: [5917, 6901, 1151, 1458, 6286, 277]
+peer: 3420, prtners: [7274, 5792, 6421, 280, 2079, 6901, 2489, 1151, 1941, 3495]
+peer: 6667, prtners: null
+peer: 7654, prtners: [1458, 3194, 3420, 2625, 5917, 333, 8152, 3392, 957]
+peer: 4509, prtners: [214, 643, 957, 2631, 1914, 123, 1912, 5927, 277, 5064]
+peer: 2631, prtners: [7274, 3420, 5149, 1912, 8152, 1914, 214, 636, 2625, 1458]
+peer: 3194, prtners: [2625, 1458, 3420, 1914, 636, 2631]
+peer: 2489, prtners: [5064, 4418, 2079, 1853, 6901, 643, 7654, 3194, 2625, 6421]
+peer: 643, prtners: [6286, 3738, 957, 4418, 3495, 1458, 5064, 6421, 3420, 6901]
+peer: 333, prtners: [1941, 5917, 1853, 2250, 2079, 957, 1301, 3392, 5927, 4771]
+peer: 7274, prtners: [2625, 7654, 3194, 1301, 3738, 2250]
+peer: 1912, prtners: [1914, 7274, 2631, 7654, 3738, 4771, 277, 957, 6421, 2625]
+peer: 6421, prtners: [1151]
+peer: 636, prtners: [1912, 5064, 2631, 4771, 123, 333, 1941, 2079, 6286, 7929]
+peer: 5927, prtners: [333, 1301, 2079, 3392, 2250, 1853, 1941, 957, 6286, 8152]
+peer: 8152, prtners: [5917, 1853, 1941, 333, 4418, 957, 6286, 2079, 3392, 2250]
+peer: 1914, prtners: [3738, 643, 4509, 2631, 1912, 2625, 1458, 3420, 636, 3194]
+peer: 5149, prtners: [7654, 636]
+peer: 5917, prtners: [333]
+peer: 3495, prtners: [1914, 636, 4509, 2489, 1458, 6079, 333, 7929, 214, 5792]
+peer: 5792, prtners: [1458, 3194, 636, 5064, 5149, 3420, 4771, 2250, 8152, 5917]
+peer: 2625, prtners: [3194]
+peer: 214, prtners: [280, 7274, 6079, 6286, 8152, 6901, 3495, 4509, 2631, 1914]
+peer: 277, prtners: [6901, 1151, 3194, 3495, 1458, 7654, 6286, 4418, 3420, 5917]
+peer: 957, prtners: [3392, 2079, 1941, 5917, 1853, 2625, 7274, 2631, 4418, 5792]
+peer: 3738, prtners: [636, 3194, 4509, 280, 277, 1912, 5064, 1151, 6079, 3495]
+peer: 2079, prtners: [6286, 5917, 957, 2250, 5927, 3194, 1458, 6079, 4771, 123]
+peer: 1301, prtners: [957, 1912, 643, 2079, 6079, 1151, 4509, 4771, 123, 3194]
+peer: 6901, prtners: [643, 1151, 2625, 5064, 4418, 1853, 1941, 5917, 1912, 280]
+peer: 6079, prtners: [2250, 7274, 2079, 4418, 1151, 8152, 1912, 3495, 5792, 123]
+peer: 2250, prtners: [2625, 7274, 6286, 6901, 4418, 1301, 7654, 1151, 1941, 277]
+peer: 3392, prtners: [1853, 8152, 643, 2079, 5917, 1941, 1301, 333]
+peer: 1853, prtners: [5917, 333, 1941]
+peer: 5064, prtners: [643, 3495, 3194, 7929, 2079, 2625, 280, 3392, 957, 6286]
+peer: 7929, prtners: [3194, 2625, 5792, 1941, 6286, 1458, 3420, 1912, 4771, 123]
+peer: 4771, prtners: [5927, 957, 6421, 2625, 7274, 280, 6286, 3738, 277, 6901]
+peer: 4418, prtners: [6901, 957, 1912, 4771, 5149, 1458, 2625, 7654, 277, 2250]
+peer: 1458, prtners: [4771, 957, 3392, 2079, 6286, 123, 7929, 3420, 643, 6079]
+###
+current time: 9
+---
+total number of peers: 42
+---
+global randomness: {0=37, 1=5}
+---
+out-degree: {0=1, 1=1, 2=1, 3=1, 8=1, 9=2, 10=35}
+---
+in-degree: {0=1, 3=1, 20=1, 6=7, 7=5, 8=8, 9=4, 10=2, 11=3, 12=5, 13=3, 15=2}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 3.7840
+Clustering-coefficient: 0.5012
+Average in-degree: 5.3693
+In-degree standard deviation: 3.5920
+Average out-degree: 9.0952
+Biggest cluster size: 41.0
+---
+peer: 1151, prtners: [5917, 6901, 6286, 1941, 6421, 4771, 3392, 5792, 280, 3495]
+peer: 6286, prtners: [6079, 1301, 4509, 3420, 2625, 7654, 957, 6901, 1914, 214]
+peer: 280, prtners: [1912, 5917, 214, 1458, 3420, 6286, 1914, 636, 6079, 4771]
+peer: 123, prtners: [2250, 6079, 2631, 5917, 6901, 5064, 7929, 643, 3194, 1301]
+peer: 1941, prtners: [6901, 6286, 277, 6079, 1458, 3420, 1853, 2079, 333, 2250]
+peer: 3420, prtners: [7274, 6901, 6079, 1458, 2631, 1914, 643, 5917, 6286, 277]
+peer: 6667, prtners: null
+peer: 7654, prtners: [3420, 2625, 5917, 3392, 957, 5927, 643, 1853, 4418, 8152]
+peer: 4509, prtners: [214, 957, 123, 1912, 277, 1301, 3392, 1853, 6286, 8152]
+peer: 2631, prtners: [3420, 5149, 8152, 214, 636, 2625, 1458, 1914, 957, 2250]
+peer: 3194, prtners: [2631, 6079, 5792, 8152, 636, 4509, 1151, 3495, 3738, 2625]
+peer: 2489, prtners: [5064, 4418, 6901, 7654, 6421, 6079, 8152, 5917, 4509, 5792]
+peer: 643, prtners: [3495, 5064, 1912, 2625, 636, 2489, 1151, 1941, 7929, 1458]
+peer: 333, prtners: [6286, 3392, 1151, 957, 2079, 8152, 1458, 3194, 5917, 7654]
+peer: 7274, prtners: [7654, 3194, 1301, 3738, 2250, 2079, 1853, 5927, 6286, 5792]
+peer: 1912, prtners: [7654, 5927, 6286, 277, 2250, 4418, 3420, 5149, 214, 2631]
+peer: 6421, prtners: [6901]
+peer: 636, prtners: [5064, 2631, 1941, 2079, 6286, 6421, 7274, 280, 7654, 5149]
+peer: 5927, prtners: [2079, 2250, 8152, 643, 2631, 1914, 5064, 4509, 1853, 3392]
+peer: 8152, prtners: [4418, 957, 6286, 2079, 3392, 2250, 1941, 5917, 7274, 1301]
+peer: 1914, prtners: [4509, 1458, 3420, 636, 3194, 6286, 3738, 957, 4418, 6421]
+peer: 5149, prtners: [7654, 7929, 1912]
+peer: 5917, prtners: [333, 1941, 1853, 5927, 3194, 2625, 2489, 2079]
+peer: 3495, prtners: [333, 7929, 214, 3420, 4771, 2250, 3392, 5927, 6286, 280]
+peer: 5792, prtners: [636, 5149, 4509, 1458, 214, 3495, 7274, 1151, 1912, 6079]
+peer: 2625, prtners: [5792, 3738, 7274, 2079, 3392, 5064, 4418, 1853, 1912, 6901]
+peer: 214, prtners: [7274, 6079, 6286, 8152, 2631, 1914, 7654, 1301, 2250, 5927]
+peer: 277, prtners: [1151, 3194, 3495, 1458, 7654, 6286, 3420, 5917, 4771, 957]
+peer: 957, prtners: [3392, 2079, 1941, 5917, 1853, 7274, 2631, 4418, 5792]
+peer: 3738, prtners: [280, 277, 1912, 5064, 6079, 3495, 1458, 3420, 4771, 8152]
+peer: 2079, prtners: [957, 1458, 123, 643, 3194, 2625, 2489, 333, 1941, 1853]
+peer: 1301, prtners: [1912, 6079, 1151, 4509, 3194, 3738, 7654, 123, 333, 2079]
+peer: 6901, prtners: [643, 1151, 1941, 5917, 1912, 280, 3194, 1301, 957, 5064]
+peer: 6079, prtners: [4418, 8152, 1912, 3495, 5792, 123, 6286, 2250, 3194, 4771]
+peer: 2250, prtners: [7654, 5149, 1458, 3392, 4771, 5917, 957, 7929, 6079, 3420]
+peer: 3392, prtners: [1853, 8152, 643, 2079, 1941, 1301, 957, 5917, 6286]
+peer: 1853, prtners: [333, 1941]
+peer: 5064, prtners: [643, 3495, 7929, 280, 6286, 5917, 957, 4771, 7654, 7274]
+peer: 7929, prtners: [3194, 2625, 1458, 3420, 1912, 123, 277, 1301, 7274, 6901]
+peer: 4771, prtners: [636, 957, 4509, 6901, 123, 5792, 1941, 6286, 1912, 7929]
+peer: 4418, prtners: [5149, 7654, 2250, 3738, 6421, 957, 6286, 1151, 3194, 277]
+peer: 1458, prtners: [2079, 123, 6079, 6421, 3495, 5917, 6901, 6286, 1941, 1151]
+###
+current time: 10
+---
+total number of peers: 42
+---
+global randomness: {0=34, 1=8}
+---
+out-degree: {0=1, 4=1, 9=1, 10=39}
+---
+in-degree: {0=1, 17=2, 3=1, 5=1, 6=4, 7=5, 8=4, 9=5, 10=5, 11=3, 12=5, 13=3, 14=2, 15=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 3.7247
+Clustering-coefficient: 0.4627
+Average in-degree: 5.8793
+In-degree standard deviation: 3.8326
+Average out-degree: 9.5952
+Biggest cluster size: 41.0
+---
+peer: 1151, prtners: [1941, 4771, 3194, 1853, 333, 1912, 1301, 643, 6079, 6901]
+peer: 6286, prtners: [6079, 6901, 2250, 7274, 957, 1853, 1914, 1912, 7929, 7654]
+peer: 280, prtners: [3420, 6286, 1914, 636, 6079, 4771, 2489, 7654, 5149, 1458]
+peer: 123, prtners: [2631, 6901, 7929, 3194, 1301, 1853, 4509, 6079, 643, 3420]
+peer: 1941, prtners: [6901, 6079, 3420, 1853, 333, 2250, 2079, 280, 636]
+peer: 3420, prtners: [6901, 1458, 2631, 643, 6286, 277, 4418, 957, 8152, 4509]
+peer: 6667, prtners: null
+peer: 7654, prtners: [8152, 6079, 4418, 7929, 5149, 1301, 1458, 2489, 1941, 1853]
+peer: 4509, prtners: [214, 957, 1912, 277, 1301, 3392, 6286, 8152, 333, 1941]
+peer: 2631, prtners: [5149, 8152, 214, 636, 2250, 6079, 1151, 333, 7929, 5927]
+peer: 3194, prtners: [2631, 3495, 6901, 6286, 6421, 280, 123, 7654, 7274, 2079]
+peer: 2489, prtners: [6901, 7654, 6421, 6079, 4509, 5792, 1941, 5064, 3392, 957]
+peer: 643, prtners: [636, 1458, 5927, 5917, 957, 7274, 5064, 3738, 6901, 4771]
+peer: 333, prtners: [1458, 3194, 7654, 1853, 5927, 2079, 5064, 1912, 1151, 1301]
+peer: 7274, prtners: [7654, 3194, 1301, 3738, 5927, 4509, 3420, 957, 1914, 214]
+peer: 1912, prtners: [1941, 1914, 643, 1151, 5792, 2625, 3420, 1301, 7274, 7929]
+peer: 6421, prtners: [6079, 280, 1301, 3392, 4509, 957, 1151, 5927, 1914, 1458]
+peer: 636, prtners: [5064, 2631, 7274, 280, 7654, 5149, 277, 1458, 1853, 2250]
+peer: 5927, prtners: [2079, 2250, 5064, 4509, 1853, 3495, 2625, 2489, 1941, 7929]
+peer: 8152, prtners: [4418, 957, 6286, 2079, 3392, 2250, 1941, 5917, 7274, 1301]
+peer: 1914, prtners: [1458, 636, 3194, 6286, 3738, 957, 6421, 5149, 7654, 1151]
+peer: 5149, prtners: [7929, 214, 2250, 1912]
+peer: 5917, prtners: [3392, 5792, 123, 2250, 1912, 3194, 3495, 4771, 957, 277]
+peer: 3495, prtners: [214, 280, 2079, 6901, 1941, 1458, 957, 7929, 6079, 3420]
+peer: 5792, prtners: [636, 5149, 4509, 1458, 7274, 3392, 1853, 957, 5064, 2631]
+peer: 2625, prtners: [1912, 6901, 5927, 2079, 5917, 123, 280, 6079, 4771, 3738]
+peer: 214, prtners: [7274, 6286, 8152, 2631, 2250, 3420, 2625, 3392, 957, 5927]
+peer: 277, prtners: [1151, 7654, 6286, 3420, 957, 5064, 1458, 214, 1914, 280]
+peer: 957, prtners: [2079, 1853, 7274, 2631, 4418, 5792, 3194, 1151, 7654, 333]
+peer: 3738, prtners: [277, 5064, 3495, 1458, 8152, 5149, 214, 5917, 1853, 1301]
+peer: 2079, prtners: [643, 333, 1853, 7654, 5792, 7274, 6286, 3738, 5917, 6421]
+peer: 1301, prtners: [6079, 4509, 3738, 7654, 123, 6286, 3392, 8152, 1853, 2079]
+peer: 6901, prtners: [1941, 636, 6421, 957, 1912, 6286, 280, 7654, 7274, 3194]
+peer: 6079, prtners: [8152, 1912, 3495, 6286, 2250, 3194, 123, 1941, 2631, 1301]
+peer: 2250, prtners: [3420, 3495, 333, 1914, 1301, 123, 2079, 3392, 5917, 8152]
+peer: 3392, prtners: [8152, 2079, 1301, 957, 5917, 6286, 333, 1941, 123, 1912]
+peer: 1853, prtners: [1941, 643, 2079, 6286, 3392, 3738, 5792, 333, 5927, 2625]
+peer: 5064, prtners: [3495, 7929, 280, 6286, 7654, 7274, 1151, 8152, 3392, 5927]
+peer: 7929, prtners: [3194, 1458, 123, 277, 7274, 6901, 4771, 214, 3495, 6079]
+peer: 4771, prtners: [636, 6286, 7929, 1301, 3392, 1853, 4418, 123, 3194, 6079]
+peer: 4418, prtners: [6286, 3194, 277, 3420, 1914, 5792, 3495, 6079, 8152, 4509]
+peer: 1458, prtners: [123, 6421, 1941, 3420, 5927, 6286, 2625, 1914, 957, 2631]
+###
+current time: 0
+---
+total number of peers: 0
+---
+global randomness: {}
+---
+out-degree: {}
+---
+in-degree: {}
+---
+graph statistics: 
+Diameter: 0
+Average path length: 0.0000
+Clustering-coefficient: 0.0000
+Average in-degree: NaN
+In-degree standard deviation: NaN
+Average out-degree: 0.0000
+Biggest cluster size: -2.147483648E9
+---
+###
+current time: 1
+---
+total number of peers: 0
+---
+global randomness: {}
+---
+out-degree: {}
+---
+in-degree: {}
+---
+graph statistics: 
+Diameter: 0
+Average path length: 0.0000
+Clustering-coefficient: 0.0000
+Average in-degree: NaN
+In-degree standard deviation: NaN
+Average out-degree: 0.0000
+Biggest cluster size: -2.147483648E9
+---
+###
+current time: 0
+---
+total number of peers: 0
+---
+global randomness: {}
+---
+out-degree: {}
+---
+in-degree: {}
+---
+graph statistics: 
+Diameter: 0
+Average path length: 0.0000
+Clustering-coefficient: 0.0000
+Average in-degree: NaN
+In-degree standard deviation: NaN
+Average out-degree: 0.0000
+Biggest cluster size: -2.147483648E9
+---
+###
+current time: 1
+---
+total number of peers: 1
+---
+global randomness: {0=1}
+---
+out-degree: {0=1}
+---
+in-degree: {0=1}
+---
+graph statistics: 
+Diameter: 0
+Average path length: 0.0000
+Clustering-coefficient: 1.0000
+Average in-degree: 0.0000
+In-degree standard deviation: 0.0000
+Average out-degree: 0.0000
+Biggest cluster size: 1.0
+---
+peer: 639, prtners: null
+peer: 4527, prtners: null
+###
+current time: 0
+---
+total number of peers: 0
+---
+global randomness: {}
+---
+out-degree: {}
+---
+in-degree: {}
+---
+graph statistics: 
+Diameter: 0
+Average path length: 0.0000
+Clustering-coefficient: 0.0000
+Average in-degree: NaN
+In-degree standard deviation: NaN
+Average out-degree: 0.0000
+Biggest cluster size: -2.147483648E9
+---
+###
+current time: 1
+---
+total number of peers: 1
+---
+global randomness: {0=1}
+---
+out-degree: {0=1}
+---
+in-degree: {0=1}
+---
+graph statistics: 
+Diameter: 0
+Average path length: 0.0000
+Clustering-coefficient: 1.0000
+Average in-degree: 0.0000
+In-degree standard deviation: 0.0000
+Average out-degree: 0.0000
+Biggest cluster size: 1.0
+---
+peer: 4653(2), prtners: null
+peer: 3601(1), prtners: null
+###
+current time: 2
+---
+total number of peers: 21
+---
+global randomness: {0=21}
+---
+out-degree: {0=5, 1=10, 2=3, 6=1, 10=2}
+---
+in-degree: {0=4, 1=6, 2=3, 3=3, 4=4, 5=1}
+---
+graph statistics: 
+Diameter: 21
+Average path length: 9.8643
+Clustering-coefficient: 0.9164
+Average in-degree: 1.9091
+In-degree standard deviation: 1.6009
+Average out-degree: 2.0000
+Biggest cluster size: 18.0
+---
+peer: 4653(2), prtners: null
+peer: 3584(6), prtners: [5441(3), 1446(8)]
+peer: 2181(20), prtners: null
+peer: 6672(19), prtners: [5031(10)]
+peer: 4931(9), prtners: [860(4)]
+peer: 4878(16), prtners: null
+peer: 3601(1), prtners: [7589(5), 4931(9), 7877(13)]
+peer: 1843(17), prtners: [1791(14)]
+peer: 5441(3), prtners: [7589(5), 3601(1)]
+peer: 6993(15), prtners: [3367(11)]
+peer: 8037(18), prtners: [4931(9)]
+peer: 3367(11), prtners: [860(4)]
+peer: 7589(5), prtners: [3584(6), 1446(8), 2073(7), 3601(1), 5441(3), 860(4)]
+peer: 161(22), prtners: null
+peer: 2566(21), prtners: null
+peer: 860(4), prtners: [5441(3), 1446(8), 7589(5), 3584(6), 4931(9), 4772(12), 7877(13), 1791(14), 2073(7), 3601(1)]
+peer: 4772(12), prtners: [3367(11)]
+peer: 1446(8), prtners: [5441(3)]
+peer: 1791(14), prtners: [7877(13)]
+peer: 2073(7), prtners: [6993(15), 1791(14), 8037(18), 1843(17), 3601(1), 5441(3), 1446(8), 7589(5), 6672(19), 4878(16)]
+peer: 7877(13), prtners: [3367(11)]
+peer: 5031(10), prtners: [4931(9)]
+###
+current time: 3
+---
+total number of peers: 33
+---
+global randomness: {0=33}
+---
+out-degree: {0=4, 1=20, 2=2, 4=1, 6=1, 7=2, 10=3}
+---
+in-degree: {0=3, 1=14, 2=5, 3=3, 4=2, 5=2, 6=1, 7=3}
+---
+graph statistics: 
+Diameter: 33
+Average path length: 9.8845
+Clustering-coefficient: 0.8830
+Average in-degree: 2.1818
+In-degree standard deviation: 1.9157
+Average out-degree: 2.3636
+Biggest cluster size: 30.0
+---
+peer: 6067(28), prtners: [154(25)]
+peer: 3584(6), prtners: [5441(3), 1446(8)]
+peer: 4931(9), prtners: [5441(3), 5031(10)]
+peer: 2181(20), prtners: [4931(9)]
+peer: 1891(30), prtners: [154(25)]
+peer: 3051(32), prtners: null
+peer: 5440(26), prtners: [154(25)]
+peer: 6993(15), prtners: [3367(11)]
+peer: 8037(18), prtners: [4931(9), 161(22), 2566(21), 2181(20)]
+peer: 5445(27), prtners: [154(25)]
+peer: 161(22), prtners: [4931(9)]
+peer: 940(24), prtners: [3449(23)]
+peer: 4772(12), prtners: [3367(11)]
+peer: 860(4), prtners: [1446(8), 7589(5), 3584(6), 4772(12), 7877(13), 1791(14), 2073(7), 4931(9), 3367(11), 3601(1)]
+peer: 2566(21), prtners: [161(22)]
+peer: 1791(14), prtners: [7877(13)]
+peer: 5031(10), prtners: [5441(3)]
+peer: 4653(2), prtners: null
+peer: 6672(19), prtners: [5031(10)]
+peer: 4878(16), prtners: [3367(11), 3449(23), 940(24), 154(25), 5440(26), 6067(28), 5445(27), 5303(29), 1891(30), 2993(31)]
+peer: 3601(1), prtners: [4931(9), 7877(13), 3584(6), 1446(8), 2073(7), 5441(3), 7589(5)]
+peer: 1843(17), prtners: [1791(14)]
+peer: 5441(3), prtners: [3601(1), 1446(8), 3584(6), 7877(13), 4931(9), 860(4)]
+peer: 3449(23), prtners: [3367(11)]
+peer: 2993(31), prtners: [5440(26)]
+peer: 3367(11), prtners: [3601(1)]
+peer: 8115(33), prtners: null
+peer: 5303(29), prtners: [6067(28)]
+peer: 7589(5), prtners: [3584(6), 1446(8), 2073(7), 860(4), 5441(3), 4931(9), 7877(13)]
+peer: 154(25), prtners: [3367(11)]
+peer: 1446(8), prtners: [5441(3)]
+peer: 2073(7), prtners: [6993(15), 1791(14), 8037(18), 1843(17), 3601(1), 5441(3), 1446(8), 7589(5), 6672(19), 4878(16)]
+peer: 7877(13), prtners: [3367(11)]
+###
+current time: 4
+---
+total number of peers: 42
+---
+global randomness: {0=42}
+---
+out-degree: {0=12, 1=16, 2=3, 3=1, 4=1, 5=1, 6=1, 7=2, 10=5}
+---
+in-degree: {0=7, 1=10, 2=8, 3=5, 4=4, 5=3, 6=4, 7=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 20.8490
+Clustering-coefficient: 0.7742
+Average in-degree: 2.3196
+In-degree standard deviation: 1.9767
+Average out-degree: 2.5000
+Biggest cluster size: 35.0
+---
+peer: 6067(28), prtners: [154(25)]
+peer: 3584(6), prtners: [1446(8), 3601(1), 860(4)]
+peer: 4931(9), prtners: [5031(10), 2566(21), 8037(18), 161(22), 2181(20), 3601(1)]
+peer: 2181(20), prtners: [5031(10)]
+peer: 6309(36), prtners: [3051(32)]
+peer: 1891(30), prtners: [154(25)]
+peer: 3051(32), prtners: [154(25)]
+peer: 5440(26), prtners: [4772(12)]
+peer: 6993(15), prtners: [4772(12)]
+peer: 8037(18), prtners: [161(22), 2566(21), 2181(20), 5031(10)]
+peer: 5445(27), prtners: [154(25)]
+peer: 7687(37), prtners: null
+peer: 161(22), prtners: [2566(21)]
+peer: 940(24), prtners: [6993(15)]
+peer: 4772(12), prtners: [3601(1)]
+peer: 860(4), prtners: [1446(8), 7589(5), 3584(6), 4772(12), 7877(13), 1791(14), 2073(7), 4931(9), 3367(11), 3601(1)]
+peer: 2566(21), prtners: []
+peer: 1791(14), prtners: [1843(17)]
+peer: 5031(10), prtners: [6672(19), 1446(8)]
+peer: 428(39), prtners: null
+peer: 4653(2), prtners: null
+peer: 6672(19), prtners: []
+peer: 4878(16), prtners: [5440(26), 6067(28), 5445(27), 8115(33), 6257(34), 6309(36), 4772(12), 6993(15), 3449(23), 3062(35)]
+peer: 3601(1), prtners: [7877(13), 6993(15), 6672(19), 2073(7), 4772(12), 3367(11), 860(4), 5031(10), 4931(9), 5441(3)]
+peer: 1843(17), prtners: []
+peer: 5441(3), prtners: [3601(1), 7877(13), 860(4), 5031(10), 1446(8), 3584(6), 4931(9)]
+peer: 3449(23), prtners: [6993(15), 940(24)]
+peer: 2993(31), prtners: [5440(26)]
+peer: 4634(41), prtners: null
+peer: 3367(11), prtners: [6993(15), 3449(23), 7877(13), 1891(30), 2993(31), 3051(32), 4878(16), 1843(17), 6672(19), 154(25)]
+peer: 8115(33), prtners: [5303(29)]
+peer: 5303(29), prtners: [6067(28)]
+peer: 7589(5), prtners: [3584(6), 1446(8), 2073(7), 860(4), 5441(3), 4931(9), 7877(13)]
+peer: 154(25), prtners: [4772(12), 5440(26)]
+peer: 2255(40), prtners: null
+peer: 1446(8), prtners: [4931(9), 7877(13), 3584(6), 5441(3), 3601(1)]
+peer: 2073(7), prtners: [1791(14), 8037(18), 5441(3), 1446(8), 6672(19), 4878(16), 4931(9), 7877(13), 3584(6), 7589(5)]
+peer: 1827(38), prtners: null
+peer: 7877(13), prtners: [1791(14), 4772(12)]
+peer: 629(42), prtners: null
+peer: 3062(35), prtners: null
+peer: 6257(34), prtners: [5440(26)]
+###
+current time: 5
+---
+total number of peers: 42
+---
+global randomness: {0=42}
+---
+out-degree: {0=5, 1=19, 2=5, 3=1, 4=2, 6=2, 7=1, 8=1, 10=6}
+---
+in-degree: {0=1, 1=11, 2=11, 3=4, 4=5, 5=4, 6=3, 7=1, 8=1, 10=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 10.5424
+Clustering-coefficient: 0.7984
+Average in-degree: 2.5396
+In-degree standard deviation: 2.0721
+Average out-degree: 3.0476
+Biggest cluster size: 41.0
+---
+peer: 6067(28), prtners: [5440(26), 5303(29)]
+peer: 3584(6), prtners: [1446(8), 7877(13), 860(4), 4772(12)]
+peer: 4931(9), prtners: [5031(10), 2566(21), 8037(18), 161(22), 2181(20), 3601(1)]
+peer: 2181(20), prtners: [5031(10)]
+peer: 6309(36), prtners: [3051(32)]
+peer: 1891(30), prtners: [5445(27)]
+peer: 3051(32), prtners: [5445(27)]
+peer: 5440(26), prtners: [4772(12), 2993(31)]
+peer: 6993(15), prtners: [4772(12)]
+peer: 8037(18), prtners: [161(22), 2566(21), 2181(20), 5031(10)]
+peer: 5445(27), prtners: [4772(12)]
+peer: 7687(37), prtners: [3449(23)]
+peer: 161(22), prtners: [2566(21)]
+peer: 940(24), prtners: [6993(15)]
+peer: 4772(12), prtners: [4931(9), 1791(14), 7877(13)]
+peer: 860(4), prtners: [1446(8), 7589(5), 3584(6), 7877(13), 1791(14), 4931(9), 2073(7), 4772(12), 3367(11), 5031(10)]
+peer: 2566(21), prtners: []
+peer: 1791(14), prtners: [1843(17)]
+peer: 5031(10), prtners: [6672(19), 1446(8)]
+peer: 428(39), prtners: [6257(34)]
+peer: 4653(2), prtners: null
+peer: 6672(19), prtners: []
+peer: 4878(16), prtners: [6067(28), 5445(27), 6309(36), 4772(12), 3062(35), 2255(40), 629(42), 4634(41), 1827(38), 7687(37)]
+peer: 3601(1), prtners: [6993(15), 6672(19), 3367(11), 5031(10), 5441(3), 2073(7), 860(4), 4772(12), 1446(8), 3584(6)]
+peer: 1843(17), prtners: []
+peer: 5441(3), prtners: [7877(13), 860(4), 5031(10), 1446(8), 3584(6), 4931(9), 7589(5), 6672(19), 4772(12), 3367(11)]
+peer: 3449(23), prtners: [6993(15), 940(24)]
+peer: 2993(31), prtners: [4772(12)]
+peer: 4634(41), prtners: [8115(33)]
+peer: 3367(11), prtners: [6993(15), 3449(23), 7877(13), 1891(30), 2993(31), 3051(32), 4878(16), 1843(17), 6672(19), 154(25)]
+peer: 8115(33), prtners: [5303(29)]
+peer: 5303(29), prtners: [5440(26)]
+peer: 7589(5), prtners: [3584(6), 2073(7), 860(4), 5441(3), 4931(9), 7877(13), 3601(1)]
+peer: 154(25), prtners: [4772(12), 5440(26), 6067(28), 5445(27), 1891(30), 3051(32)]
+peer: 2255(40), prtners: [5440(26)]
+peer: 1446(8), prtners: [4931(9), 7877(13), 3584(6), 5441(3), 3601(1), 2073(7), 860(4), 7589(5)]
+peer: 2073(7), prtners: [1791(14), 8037(18), 5441(3), 1446(8), 6672(19), 4878(16), 4931(9), 7877(13), 3584(6), 7589(5)]
+peer: 1827(38), prtners: [6993(15)]
+peer: 7877(13), prtners: [1791(14), 4931(9)]
+peer: 629(42), prtners: [428(39)]
+peer: 3062(35), prtners: [940(24)]
+peer: 6257(34), prtners: [5440(26)]
+###
+current time: 6
+---
+total number of peers: 42
+---
+global randomness: {0=42}
+---
+out-degree: {0=3, 1=10, 2=5, 3=5, 4=1, 5=3, 6=1, 8=1, 9=2, 10=11}
+---
+in-degree: {0=1, 1=2, 2=7, 3=5, 4=4, 5=7, 6=6, 7=5, 8=2, 9=3}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 7.6069
+Clustering-coefficient: 0.7108
+Average in-degree: 3.0331
+In-degree standard deviation: 2.3212
+Average out-degree: 4.6667
+Biggest cluster size: 41.0
+---
+peer: 6067(28), prtners: [5303(29), 6257(34)]
+peer: 3584(6), prtners: [1446(8), 4772(12), 2181(20), 7589(5), 860(4)]
+peer: 4931(9), prtners: [8037(18), 161(22), 2181(20), 1446(8), 1791(14), 6993(15), 1891(30), 154(25), 5440(26), 4772(12)]
+peer: 2181(20), prtners: [2566(21), 8037(18), 161(22), 6672(19), 7589(5)]
+peer: 6309(36), prtners: [5445(27)]
+peer: 1891(30), prtners: [6257(34)]
+peer: 3051(32), prtners: [6309(36), 6257(34), 1891(30)]
+peer: 5440(26), prtners: [2993(31), 6257(34), 7877(13), 4634(41), 6067(28), 8115(33), 5303(29), 2255(40)]
+peer: 6993(15), prtners: [4931(9), 5031(10), 5441(3), 1446(8), 3584(6), 3601(1), 3449(23), 940(24), 1827(38)]
+peer: 8037(18), prtners: [2181(20), 5031(10), 2566(21)]
+peer: 5445(27), prtners: [6257(34), 1891(30), 6309(36), 3051(32)]
+peer: 7687(37), prtners: [3449(23)]
+peer: 161(22), prtners: [2566(21), 5031(10), 8037(18)]
+peer: 940(24), prtners: [4931(9), 3062(35)]
+peer: 4772(12), prtners: [4878(16), 5445(27), 3584(6), 7589(5), 2073(7), 4931(9), 1446(8), 3367(11), 860(4), 7877(13)]
+peer: 860(4), prtners: [7589(5), 3584(6), 1791(14), 4772(12), 3367(11), 5031(10), 3601(1), 6672(19), 4931(9), 1446(8)]
+peer: 2566(21), prtners: []
+peer: 1791(14), prtners: [1843(17)]
+peer: 5031(10), prtners: [6672(19), 7589(5), 2566(21), 8037(18), 161(22), 2181(20)]
+peer: 428(39), prtners: [2993(31), 629(42)]
+peer: 4653(2), prtners: null
+peer: 6672(19), prtners: [2993(31), 3051(32), 4878(16), 154(25), 3367(11)]
+peer: 4878(16), prtners: [6067(28), 5445(27), 3062(35), 4634(41), 1827(38), 7687(37), 4931(9), 1791(14), 7877(13), 6993(15)]
+peer: 3601(1), prtners: [6672(19), 3367(11), 5031(10), 5441(3), 2073(7), 860(4), 4772(12), 1446(8), 3584(6), 4931(9)]
+peer: 1843(17), prtners: []
+peer: 5441(3), prtners: [860(4), 5031(10), 4931(9), 7589(5), 6672(19), 4772(12), 3367(11), 1791(14), 2181(20), 3601(1)]
+peer: 3449(23), prtners: [940(24), 5031(10), 1446(8)]
+peer: 2993(31), prtners: [154(25)]
+peer: 4634(41), prtners: [5440(26)]
+peer: 3367(11), prtners: [6993(15), 3449(23), 7877(13), 1891(30), 2993(31), 3051(32), 4878(16), 1843(17), 154(25)]
+peer: 8115(33), prtners: [5440(26), 4634(41)]
+peer: 5303(29), prtners: [8115(33), 6257(34), 6067(28)]
+peer: 7589(5), prtners: [3584(6), 2073(7), 860(4), 4931(9), 3601(1), 1791(14), 2181(20), 1446(8), 4772(12), 5441(3)]
+peer: 154(25), prtners: [5440(26), 6067(28), 5445(27), 1891(30), 3051(32), 1791(14), 6309(36), 2255(40), 629(42), 4878(16)]
+peer: 2255(40), prtners: [7877(13)]
+peer: 1446(8), prtners: [3584(6), 5441(3), 3601(1), 2073(7), 860(4), 2566(21), 8037(18), 161(22), 6672(19), 5031(10)]
+peer: 2073(7), prtners: [1791(14), 5441(3), 4878(16), 7877(13), 3584(6), 7589(5), 5031(10), 2566(21), 161(22), 1446(8)]
+peer: 1827(38), prtners: [940(24)]
+peer: 7877(13), prtners: [2181(20), 5441(3), 7589(5), 2073(7), 4772(12), 3584(6), 3051(32), 6257(34), 2993(31), 3601(1)]
+peer: 629(42), prtners: [2993(31)]
+peer: 3062(35), prtners: [4931(9)]
+peer: 6257(34), prtners: [2993(31), 428(39)]
+###
+current time: 7
+---
+total number of peers: 42
+---
+global randomness: {0=40, 1=2}
+---
+out-degree: {0=2, 1=8, 2=1, 3=2, 4=4, 5=2, 7=2, 8=2, 9=2, 10=17}
+---
+in-degree: {0=1, 2=1, 3=6, 4=4, 5=5, 6=4, 7=10, 8=2, 9=4, 10=4, 13=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 6.2619
+Clustering-coefficient: 0.6169
+Average in-degree: 3.6278
+In-degree standard deviation: 2.6864
+Average out-degree: 6.1905
+Biggest cluster size: 41.0
+---
+peer: 6067(28), prtners: [5303(29), 428(39), 154(25)]
+peer: 3584(6), prtners: [4772(12), 7589(5), 5441(3), 8037(18), 1446(8), 2073(7), 4931(9), 2993(31), 3051(32), 3367(11)]
+peer: 4931(9), prtners: [4772(12), 5445(27), 7877(13), 2566(21), 3601(1), 8037(18), 6672(19), 5031(10), 940(24), 3062(35)]
+peer: 2181(20), prtners: [8037(18), 161(22), 6672(19), 7589(5)]
+peer: 6309(36), prtners: [1891(30)]
+peer: 1891(30), prtners: [6257(34), 6067(28), 5303(29), 2255(40), 5440(26), 3051(32), 6309(36), 154(25)]
+peer: 3051(32), prtners: [6309(36), 1891(30), 428(39), 154(25), 5303(29)]
+peer: 5440(26), prtners: [2993(31), 7877(13), 6067(28), 5303(29), 2255(40), 8115(33), 5445(27), 154(25), 6257(34), 4634(41)]
+peer: 6993(15), prtners: [5441(3), 1827(38), 6672(19), 7589(5), 2566(21), 1891(30), 2993(31), 3051(32), 1843(17), 3367(11)]
+peer: 8037(18), prtners: [2181(20), 2566(21), 3601(1), 6993(15)]
+peer: 5445(27), prtners: [3051(32), 6309(36), 428(39), 154(25), 5303(29), 6067(28), 6257(34), 2255(40), 1891(30)]
+peer: 7687(37), prtners: [940(24)]
+peer: 161(22), prtners: [2566(21), 6993(15), 1891(30), 154(25), 4931(9), 940(24), 8037(18), 4878(16)]
+peer: 940(24), prtners: [3062(35), 1791(14), 154(25), 1827(38)]
+peer: 4772(12), prtners: [7877(13), 1791(14), 2181(20), 7589(5), 860(4), 3584(6), 8037(18), 940(24), 7687(37), 3449(23)]
+peer: 860(4), prtners: [3584(6), 3367(11), 5031(10), 3601(1), 6672(19), 4931(9), 1446(8), 7877(13), 2181(20), 7589(5)]
+peer: 2566(21), prtners: [8037(18), 161(22), 6672(19), 7589(5), 2181(20)]
+peer: 1791(14), prtners: [1843(17)]
+peer: 5031(10), prtners: [154(25), 6993(15), 1891(30), 161(22), 3449(23), 4931(9), 1446(8), 5441(3), 3601(1), 4772(12)]
+peer: 428(39), prtners: [629(42), 154(25)]
+peer: 4653(2), prtners: null
+peer: 6672(19), prtners: [3051(32), 3367(11), 860(4), 3584(6), 3601(1), 7589(5), 161(22), 2181(20), 1446(8), 6993(15)]
+peer: 4878(16), prtners: [6067(28), 3062(35), 4634(41), 1827(38), 7687(37), 7877(13), 6993(15), 2181(20), 1446(8), 1891(30)]
+peer: 3601(1), prtners: [5441(3), 154(25), 3367(11), 860(4), 8037(18), 3584(6), 2993(31), 2566(21), 1446(8), 7877(13)]
+peer: 1843(17), prtners: []
+peer: 5441(3), prtners: [860(4), 4931(9), 6672(19), 3367(11), 3601(1), 4878(16), 5445(27), 3584(6), 7589(5), 7877(13)]
+peer: 3449(23), prtners: [940(24), 1446(8), 7687(37), 2993(31), 5440(26), 4878(16), 2566(21)]
+peer: 2993(31), prtners: [6257(34), 428(39), 629(42), 4878(16), 7877(13), 4634(41), 8115(33)]
+peer: 4634(41), prtners: [2993(31)]
+peer: 3367(11), prtners: [7877(13), 3051(32), 4878(16), 1843(17), 154(25), 4931(9), 3449(23), 940(24), 8037(18), 161(22)]
+peer: 8115(33), prtners: [4634(41), 6257(34), 6067(28)]
+peer: 5303(29), prtners: [8115(33), 154(25), 6067(28), 1891(30)]
+peer: 7589(5), prtners: [3584(6), 4931(9), 3601(1), 1791(14), 2181(20), 1446(8), 3367(11), 860(4), 7877(13), 5441(3)]
+peer: 154(25), prtners: [3051(32), 1791(14), 6309(36), 6067(28), 4634(41), 8115(33), 6257(34), 428(39), 629(42), 2993(31)]
+peer: 2255(40), prtners: [2073(7)]
+peer: 1446(8), prtners: [2073(7), 2566(21), 8037(18), 161(22), 6672(19), 5031(10), 4772(12), 2181(20), 7589(5), 860(4)]
+peer: 2073(7), prtners: [1791(14), 5441(3), 4878(16), 5031(10), 161(22), 1446(8), 2181(20), 4772(12), 3051(32), 6257(34)]
+peer: 1827(38), prtners: [3062(35)]
+peer: 7877(13), prtners: [5441(3), 4772(12), 6257(34), 2566(21), 1446(8), 2255(40), 4878(16), 2181(20), 860(4), 3584(6)]
+peer: 629(42), prtners: [6257(34)]
+peer: 3062(35), prtners: [8037(18)]
+peer: 6257(34), prtners: [428(39), 154(25), 6067(28), 1891(30), 6309(36), 5445(27), 8115(33), 5303(29), 3051(32)]
+###
+current time: 8
+---
+total number of peers: 42
+---
+global randomness: {0=38, 1=4}
+---
+out-degree: {0=1, 1=7, 2=1, 3=1, 5=3, 8=2, 9=3, 10=24}
+---
+in-degree: {0=1, 16=1, 3=3, 4=1, 5=5, 6=8, 7=6, 8=5, 9=2, 10=5, 11=3, 12=1, 13=1}
+---
+graph statistics: 
+Diameter: 42
+Average path length: 4.0540
+Clustering-coefficient: 0.5727
+Average in-degree: 4.2226
+In-degree standard deviation: 3.0624
+Average out-degree: 7.3810
+Biggest cluster size: 41.0
+---
+peer: 6067(28), prtners: [5303(29), 428(39), 3051(32), 4634(41), 2181(20)]
+peer: 3584(6), prtners: [4931(9), 3051(32), 3367(11), 1791(14), 860(4), 7589(5), 6993(15), 940(24), 3449(23), 4772(12)]
+peer: 4931(9), prtners: [5031(10), 4878(16), 1843(17), 154(25), 8037(18), 3601(1), 5445(27), 7589(5), 7877(13), 5441(3)]
+peer: 2181(20), prtners: [4878(16), 5303(29), 940(24), 4772(12), 1446(8), 3584(6), 629(42), 8115(33), 2993(31), 7877(13)]
+peer: 6309(36), prtners: [6993(15)]
+peer: 1891(30), prtners: [161(22), 7589(5), 7687(37), 6993(15), 2181(20), 6309(36), 5445(27), 6067(28), 5303(29), 428(39)]
+peer: 3051(32), prtners: [1891(30), 428(39), 5303(29), 2073(7), 629(42), 2255(40), 5440(26), 6309(36)]
+peer: 5440(26), prtners: [7877(13), 6067(28), 2255(40), 8115(33), 4634(41), 428(39), 3051(32), 5031(10), 1446(8), 2181(20)]
+peer: 6993(15), prtners: [1843(17), 3367(11), 8037(18), 161(22), 2181(20), 4772(12), 6672(19), 4931(9), 154(25), 2566(21)]
+peer: 8037(18), prtners: [2181(20), 3601(1), 6993(15), 161(22), 6672(19), 3584(6), 2993(31), 3062(35)]
+peer: 5445(27), prtners: [6309(36), 428(39), 5303(29), 6067(28), 2255(40), 1891(30), 2073(7), 2993(31), 154(25), 5440(26)]
+peer: 7687(37), prtners: [1791(14)]
+peer: 161(22), prtners: [6993(15), 1891(30), 154(25), 4931(9), 4878(16), 5441(3), 3601(1), 8037(18), 4772(12), 940(24)]
+peer: 940(24), prtners: [3062(35), 154(25), 1827(38), 7687(37), 161(22), 1446(8), 2181(20), 428(39), 629(42)]
+peer: 4772(12), prtners: [7877(13), 860(4), 3584(6), 8037(18), 7687(37), 3449(23), 6672(19), 6257(34), 3051(32), 6309(36)]
+peer: 860(4), prtners: [4931(9), 1446(8), 7877(13), 2181(20), 7589(5), 154(25), 2993(31), 161(22), 3367(11), 1891(30)]
+peer: 2566(21), prtners: [7877(13), 940(24), 161(22), 7687(37), 4878(16), 3449(23), 1827(38), 1891(30), 3051(32), 3367(11)]
+peer: 1791(14), prtners: [2073(7), 1843(17), 6067(28), 8115(33), 629(42), 154(25), 3062(35), 1827(38), 7687(37), 940(24)]
+peer: 5031(10), prtners: [6993(15), 161(22), 3449(23), 5441(3), 4772(12), 860(4), 7877(13), 8037(18), 7589(5), 3367(11)]
+peer: 428(39), prtners: [629(42), 2181(20), 2073(7)]
+peer: 4653(2), prtners: null
+peer: 6672(19), prtners: [3367(11), 3584(6), 3601(1), 161(22), 2181(20), 6993(15), 5031(10), 4772(12), 7589(5), 860(4)]
+peer: 4878(16), prtners: [6067(28), 3062(35), 4634(41), 1827(38), 1446(8), 1891(30), 8037(18), 161(22), 6672(19), 7589(5)]
+peer: 3601(1), prtners: [2993(31), 1446(8), 161(22), 6672(19), 3367(11), 1891(30), 4931(9), 5031(10), 7589(5), 860(4)]
+peer: 1843(17), prtners: [1446(8)]
+peer: 5441(3), prtners: [860(4), 6672(19), 4878(16), 7589(5), 7877(13), 940(24), 3062(35), 6993(15), 3584(6), 3367(11)]
+peer: 3449(23), prtners: [1446(8), 7687(37), 5440(26), 4878(16), 7589(5), 2993(31), 940(24), 4931(9), 154(25)]
+peer: 2993(31), prtners: [6257(34), 428(39), 629(42), 4878(16), 8115(33), 4634(41), 5441(3), 4772(12), 860(4)]
+peer: 4634(41), prtners: [6257(34)]
+peer: 3367(11), prtners: [7877(13), 3051(32), 154(25), 3449(23), 940(24), 161(22), 5445(27), 3601(1), 8037(18), 2181(20)]
+peer: 8115(33), prtners: [4634(41), 6067(28), 1891(30), 5445(27), 3051(32)]
+peer: 5303(29), prtners: [1891(30), 6309(36), 5445(27), 8115(33), 6067(28)]
+peer: 7589(5), prtners: [4931(9), 3601(1), 1446(8), 3367(11), 860(4), 7877(13), 5441(3), 2073(7), 2993(31), 3051(32)]
+peer: 154(25), prtners: [2993(31), 8115(33), 6257(34), 5440(26), 2181(20), 6309(36), 1891(30), 428(39), 5303(29), 3051(32)]
+peer: 2255(40), prtners: [860(4)]
+peer: 1446(8), prtners: [2566(21), 7589(5), 860(4), 5441(3), 3051(32), 6257(34), 3367(11), 3601(1), 161(22), 6672(19)]
+peer: 2073(7), prtners: [4878(16), 161(22), 2181(20), 4772(12), 3051(32), 6257(34), 8037(18), 7589(5), 1446(8), 2255(40)]
+peer: 1827(38), prtners: [161(22)]
+peer: 7877(13), prtners: [2566(21), 2255(40), 860(4), 428(39), 2993(31), 8037(18), 154(25), 1791(14), 3449(23), 3584(6)]
+peer: 629(42), prtners: [4634(41)]
+peer: 3062(35), prtners: [161(22), 1827(38)]
+peer: 6257(34), prtners: [5303(29), 161(22), 2181(20), 5440(26), 6309(36), 428(39), 6067(28), 1891(30), 5445(27), 629(42)]
+###

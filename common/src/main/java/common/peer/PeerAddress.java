@@ -29,7 +29,7 @@ public final class PeerAddress extends OverlayAddress implements Comparable<Peer
 //-------------------------------------------------------------------
 	@Override
 	public String toString() {
-		return peerId.toString();
+		return peerId.toString()+"("+super.peerAddress.getId()+")";
 	}
 
 //-------------------------------------------------------------------

@@ -26,99 +26,104 @@ import search.system.peer.search.SearchInit;
 import common.configuration.SearchConfiguration;
 import common.configuration.CyclonConfiguration;
 import cyclon.system.peer.cyclon.*;
+import se.sics.kompics.ControlPort;
 import se.sics.kompics.web.Web;
+import search.gradient.Gradient;
+import search.gradient.GradientInit;
+import search.system.peer.search.AddIndexToLeaderPort;
+import search.system.peer.search.LeaderPort;
 import tman.system.peer.tman.TMan;
 import tman.system.peer.tman.TManSamplePort;
 
-
 public final class SearchPeer extends ComponentDefinition {
 
-    	Positive<IndexPort> indexPort = positive(IndexPort.class);
-
-        Positive<Network> network = positive(Network.class);
-	Positive<Timer> timer = positive(Timer.class);
-        Negative<Web> webPort = negative(Web.class);
-	
-        private Component cyclon, tman, search, bootstrap;
-	private int num;
-	private Address self;
-	private PeerAddress peerSelf;
-	private int bootstrapRequestPeerCount;
-	private boolean bootstrapped;
-	private SearchConfiguration aggregationConfiguration;
+    Positive<IndexPort> indexPort = positive(IndexPort.class);
+    Positive<Network> network = positive(Network.class);
+    Positive<Timer> timer = positive(Timer.class);
+    Negative<Web> webPort = negative(Web.class);
+    private Component cyclon, tman, search, bootstrap, gradient;
+    private int num;
+    private Address self;
+    private PeerAddress peerSelf;
+    private int bootstrapRequestPeerCount;
+    private boolean bootstrapped;
+    private SearchConfiguration aggregationConfiguration;
 
 //-------------------------------------------------------------------	
-	public SearchPeer() {
-		cyclon = create(Cyclon.class);
-		tman = create(TMan.class);
-		search = create(Search.class);
-		bootstrap = create(BootstrapClient.class);
-
-		connect(network, search.getNegative(Network.class));
-		connect(network, cyclon.getNegative(Network.class));
-		connect(network, bootstrap.getNegative(Network.class));
-		connect(network, tman.getNegative(Network.class));
-		connect(timer, search.getNegative(Timer.class));
-		connect(timer, cyclon.getNegative(Timer.class));
-		connect(timer, bootstrap.getNegative(Timer.class));
-		connect(timer, tman.getNegative(Timer.class));
-		connect(webPort, search.getPositive(Web.class));
-		connect(cyclon.getPositive(CyclonSamplePort.class), 
-                        search.getNegative(CyclonSamplePort.class));
-		connect(cyclon.getPositive(CyclonSamplePort.class), 
-                        tman.getNegative(CyclonSamplePort.class));
-		connect(tman.getPositive(TManSamplePort.class), 
-                        search.getNegative(TManSamplePort.class));
-
-                connect(indexPort, 
-                        search.getNegative(IndexPort.class));
-		
-		subscribe(handleInit, control);
-		subscribe(handleJoinCompleted, cyclon.getPositive(CyclonPort.class));
-		subscribe(handleBootstrapResponse, bootstrap.getPositive(P2pBootstrap.class));
-	}
-
+    public SearchPeer() {
+        cyclon = create(Cyclon.class);
+        tman = create(TMan.class);
+        search = create(Search.class);
+        bootstrap = create(BootstrapClient.class);
+        gradient = create(Gradient.class);
+        //connect(control, search.getPositive(ControlPort.class));
+        
+        connect(network, search.getNegative(Network.class));
+        connect(network, cyclon.getNegative(Network.class));
+        connect(network, bootstrap.getNegative(Network.class));
+        connect(network, tman.getNegative(Network.class));
+        connect(network, gradient.getNegative(Network.class));
+        connect(timer, search.getNegative(Timer.class));
+        connect(timer, cyclon.getNegative(Timer.class));
+        connect(timer, gradient.getNegative(Timer.class));
+        connect(timer, bootstrap.getNegative(Timer.class));
+        connect(timer, tman.getNegative(Timer.class));
+        connect(webPort, search.getPositive(Web.class));
+        connect(cyclon.getPositive(CyclonSamplePort.class),
+                search.getNegative(CyclonSamplePort.class));
+        connect(cyclon.getPositive(CyclonSamplePort.class),
+                tman.getNegative(CyclonSamplePort.class));
+        connect(tman.getPositive(TManSamplePort.class),
+                search.getNegative(TManSamplePort.class));
+        connect(search.getPositive(LeaderPort.class), gradient.getNegative(LeaderPort.class));
+        connect(gradient.getPositive(AddIndexToLeaderPort.class), search.getNegative(AddIndexToLeaderPort.class));
+        connect(indexPort,search.getNegative(IndexPort.class));
+        subscribe(handleInit, control);
+        subscribe(handleJoinCompleted, cyclon.getPositive(CyclonPort.class));
+        subscribe(handleBootstrapResponse, bootstrap.getPositive(P2pBootstrap.class));
+    }
 //-------------------------------------------------------------------	
-	Handler<SearchPeerInit> handleInit = new Handler<SearchPeerInit>() {
-		public void handle(SearchPeerInit init) {
-			num = init.getNum();
-			peerSelf = init.getPeerSelf();
-			self = peerSelf.getPeerAddress();
-			CyclonConfiguration cyclonConfiguration = init.getCyclonConfiguration();
-			aggregationConfiguration = init.getApplicationConfiguration();
-			
-			bootstrapRequestPeerCount = cyclonConfiguration.getBootstrapRequestPeerCount();
+    Handler<SearchPeerInit> handleInit = new Handler<SearchPeerInit>() {
+        public void handle(SearchPeerInit init) {
+            num = init.getNum();
+            peerSelf = init.getPeerSelf();
+            self = peerSelf.getPeerAddress();
+            CyclonConfiguration cyclonConfiguration = init.getCyclonConfiguration();
+            aggregationConfiguration = init.getApplicationConfiguration();
 
-			trigger(new CyclonInit(cyclonConfiguration), cyclon.getControl());
-			trigger(new BootstrapClientInit(self, init.getBootstrapConfiguration()), bootstrap.getControl());
-			BootstrapRequest request = new BootstrapRequest("Cyclon", bootstrapRequestPeerCount);
-			trigger(request, bootstrap.getPositive(P2pBootstrap.class));
-			Snapshot.addPeer(peerSelf);
-		}
-	};
+            bootstrapRequestPeerCount = cyclonConfiguration.getBootstrapRequestPeerCount();
+
+            trigger(new CyclonInit(cyclonConfiguration), cyclon.getControl());
+            trigger(new BootstrapClientInit(self, init.getBootstrapConfiguration()), bootstrap.getControl());
 
 
+            BootstrapRequest request = new BootstrapRequest("Cyclon", bootstrapRequestPeerCount);
+            trigger(request, bootstrap.getPositive(P2pBootstrap.class));
+            Snapshot.addPeer(peerSelf);
+        }
+    };
 //-------------------------------------------------------------------	
-	Handler<BootstrapResponse> handleBootstrapResponse = new Handler<BootstrapResponse>() {
-		public void handle(BootstrapResponse event) {
-			if (!bootstrapped) {
-				Set<PeerEntry> somePeers = event.getPeers();
-				LinkedList<PeerAddress> cyclonInsiders = new LinkedList<PeerAddress>();
-				
-				for (PeerEntry peerEntry : somePeers)
-					cyclonInsiders.add((PeerAddress) peerEntry.getOverlayAddress());
-				
-				trigger(new CyclonJoin(peerSelf, cyclonInsiders), cyclon.getPositive(CyclonPort.class));
-				bootstrapped = true;
-			}
-		}
-	};
+    Handler<BootstrapResponse> handleBootstrapResponse = new Handler<BootstrapResponse>() {
+        public void handle(BootstrapResponse event) {
+            if (!bootstrapped) {
+                Set<PeerEntry> somePeers = event.getPeers();
+                LinkedList<PeerAddress> cyclonInsiders = new LinkedList<PeerAddress>();
 
+                for (PeerEntry peerEntry : somePeers) {
+                    cyclonInsiders.add((PeerAddress) peerEntry.getOverlayAddress());
+                }
+
+                trigger(new CyclonJoin(peerSelf, cyclonInsiders), cyclon.getPositive(CyclonPort.class));
+                bootstrapped = true;
+            }
+        }
+    };
 //-------------------------------------------------------------------	
-	Handler<JoinCompleted> handleJoinCompleted = new Handler<JoinCompleted>() {
-		public void handle(JoinCompleted event) {
-			trigger(new BootstrapCompleted("Cyclon", peerSelf), bootstrap.getPositive(P2pBootstrap.class));
-			trigger(new SearchInit(peerSelf, num, aggregationConfiguration), search.getControl());
-		}
-	};
+    Handler<JoinCompleted> handleJoinCompleted = new Handler<JoinCompleted>() {
+        public void handle(JoinCompleted event) {
+            trigger(new BootstrapCompleted("Cyclon", peerSelf), bootstrap.getPositive(P2pBootstrap.class));
+            trigger(new SearchInit(peerSelf, num, aggregationConfiguration), search.getControl());
+            trigger(new GradientInit(peerSelf, num), gradient.getControl());
+        }
+    };
 }

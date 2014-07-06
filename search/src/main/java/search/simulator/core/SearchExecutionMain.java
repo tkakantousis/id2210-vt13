@@ -53,7 +53,7 @@ public final class SearchExecutionMain extends ComponentDefinition {
         final SearchConfiguration searchConfiguration = SearchConfiguration.load(System.getProperty("search.configuration"));
 
         trigger(new BootstrapServerInit(bootConfiguration), bootstrapServer.getControl());
-        trigger(new P2pOrchestratorInit(scenario, new KingLatencyMap()), p2pSimulator.getControl());
+        //trigger(new P2pOrchestratorInit(scenario, new KingLatencyMap()), p2pSimulator.getControl());
         trigger(new SimulatorInit(bootConfiguration, cyclonConfiguration, null,
                 searchConfiguration), simulator.getControl());
 
@@ -75,6 +75,7 @@ public final class SearchExecutionMain extends ComponentDefinition {
                 30 * 1000, 2, webServerAddr);
         trigger(new JettyWebServerInit(webConfiguration), web.getControl());
         System.out.println("Webserver Started. Address=" + webServerAddr + "/1/search");
+        trigger(new P2pOrchestratorInit(scenario, new KingLatencyMap()), p2pSimulator.getControl());
     }
 
 //-------------------------------------------------------------------	

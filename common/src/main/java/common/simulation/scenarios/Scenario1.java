@@ -16,20 +16,56 @@ public class Scenario1 extends Scenario {
             };
             StochasticProcess process2 = new StochasticProcess() {
                 {
-                    eventInterArrivalTime(constant(100));
-                    raise(5, Operations.peerJoin(5), uniform(13));
+                    eventInterArrivalTime(constant(50));
+                    raise(99, Operations.peerJoin(5), uniform(13));
                 }
             };
-            StochasticProcess process3 = new StochasticProcess() {
+           
+            StochasticProcess process21 = new StochasticProcess() {
+                {
+                    eventInterArrivalTime(constant(50));
+                    raise(10, Operations.peerJoin(5), uniform(13));
+                }
+            };
+            StochasticProcess process4 = new StochasticProcess() {
+                {
+                    eventInterArrivalTime(constant(50));
+                    raise(100, Operations.addIndexEntry(), uniform(13));
+                }
+            };
+            StochasticProcess process5 = new StochasticProcess() {
+                {
+                    eventInterArrivalTime(constant(100));
+                    raise(150, Operations.addIndexEntry(), uniform(13));
+                }
+            };
+            StochasticProcess process6 = new StochasticProcess() {
+                {
+                    eventInterArrivalTime(constant(100));
+                    raise(900, Operations.addIndexEntry(), uniform(13));
+                }
+            };
+            StochasticProcess process7 = new StochasticProcess() {
                 {
                     eventInterArrivalTime(constant(100));
                     raise(100, Operations.addIndexEntry(), uniform(13));
                 }
             };
-
+            StochasticProcess process8 = new StochasticProcess() {
+                {
+                    eventInterArrivalTime(constant(100));
+                    raise(500, Operations.addIndexEntry(), uniform(13));
+                }
+            };
             process1.start();
             process2.startAfterTerminationOf(2000, process1);
-            process3.startAfterTerminationOf(2000, process2);
+            //process21.startAfterTerminationOf(50000, process1);
+            process4.startAfterTerminationOf(50000, process2);
+            //process5.startAfterTerminationOf(40000, process4);
+            //process6.startAfterTerminationOf(40000, process5);
+//            process7.startAfterTerminationOf(40000, process6);
+//            process8.startAfterTerminationOf(40000, process7);
+            
         }
     };
 
